@@ -1,0 +1,126 @@
+@font-face {
+    font-family: playfair;
+    src: url(../fonts/PlayfairDisplay-Regular.ttf)
+}
+
+@font-face {
+    font-family: sofia;
+    src: url(../fonts/sofiapro-light.otf);
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Sign Up CSS */
+.signup-page {
+    background: url(../images/bg2.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-blend-mode: overlay;
+    display: flex;
+    height: 100vh;
+}
+
+.signup-container {
+    margin: auto;
+    width: 500px;
+    height: 740px;
+    background-color: #F6F6F6;
+    font-family: sofia;
+    border-radius: 20px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    text-align: center;
+    color: #6ABCB8;
+    font-size: 2em;
+    letter-spacing: -4px;
+    margin-bottom: 20px;
+}
+
+.signup-page img {
+    width: 120px;
+}
+
+.signup-container h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+.input-fields {
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.signup-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.input-fields input {
+    width: 90%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #E4E4E4;
+    font-family: sofia;
+    padding-left: 20px;
+    margin-top: 5px;
+    border-style: none;
+}
+
+.signup-page button {
+    width: 90%;
+    font-family: sofia;
+    height: 40px;
+    background-color: #00625C;
+    color: #ffffff;
+    border-radius: 10px;
+    border-style: none;
+    margin-bottom: 16px;
+}
+
+.signup-content > p {
+    color: #7D7D7D;
+}
+
+.signup-content > p > a {
+    color: #333333;
+    text-decoration: none;
+}
+
+.signup-content a {
+    margin-right: 60px;
+    text-decoration: none;
+    color: #7D7D7D;
+}
+
+.signup-button {
+    margin-top: 15px;
+    font-size: 1.1em;
+}
+
+.terms-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 16px;
+    color: #7D7D7D;
+}
+
+.terms-checkbox a {
+    color: #7D7D7D; 
+    text-decoration: underline;
+}

@@ -1,0 +1,120 @@
+@font-face {
+    font-family: playfair;
+    src: url(../fonts/PlayfairDisplay-Regular.ttf)
+}
+
+@font-face {
+    font-family: sofia;
+    src: url(../fonts/sofiapro-light.otf);
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.login-page {
+    background: url(../images/bg2.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-blend-mode: overlay;
+    display: flex;
+    height: 100vh;
+}
+
+.login-container {
+    margin: auto;
+    width: 500px;
+    height: 600px;
+    background-color: #f6f6f6;
+    font-family: sofia;
+    border-radius: 20px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    text-align: center;
+    color: #6ABCB8;
+    font-size: 2em;
+    letter-spacing: -4px;
+    margin-bottom: 10px;
+}
+
+.login-page img {
+    width: 120px;
+}
+
+.login-container h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+.input-fields {
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.login-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 50px;
+}
+
+.input-fields input {
+    width: 90%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #E4E4E4;
+    font-family: sofia;
+    padding-left: 20px;
+    border-style: none;
+    margin-top: 5px;
+}
+
+.login-page button {
+    width: 90%;
+    font-family: sofia;
+    height: 40px;
+    background-color: #00625C;
+    color: #ffffff;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+.remember-forgot {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+label {
+    display: flex;
+    gap: 3px;
+}
+
+.remember-forgot a {
+    margin-right: 50px;
+    text-decoration: none;
+    color: #7D7D7D;
+}
+
+.login-content > p {
+    color: #7D7D7D;
+}
+
+.login-content > p > a {
+    color: #333333;
+    text-decoration: none;
+}

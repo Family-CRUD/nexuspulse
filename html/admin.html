@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexusPulse - Admin</title>
+    <link rel="stylesheet" href="../styles/admin.css">
+    <script src="../admin.js" defer></script>
+</head>
+<body class="admin-page">
+    <div class="sidebar">
+        <div class="top">
+            <div class="logo">
+                <img src="../images/logo4.png" alt="NexusPulse">
+            </div>
+            <div class="items">
+                <div class="dashboard">
+                    <img src="../images/dashboard.png" alt="">
+                    <div class="text">Dashboard</div>
+                </div>
+                <div class="patient-records">
+                    <img src="../images/patient-data.png" alt="">
+                    <div class="text">Patient Records</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom">
+            <div class="user">
+                <img src="../images/user.png" alt="">
+                <div class="text">User</div>
+            </div>
+            <div class="logout">
+                <img src="../images/logout.png" alt="">
+                <div class="text">Logout</div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container">
+        <div class="patient">
+            <header>
+                <h2>Patient Records</h2>
+                <div class="search">
+                    <input type="text" name="records" id="" placeholder="Search Patient ID">
+                    <div class="buttons">
+                        <button class="search-button">Search</button>
+                        <button class="add-patient-button">Add Patient</button>
+                    </div>
+                </div>
+            </header>
+            <table class="patient-table">
+                <thead>
+                    <tr>
+                      <th>ID</th>
+                      <th>Name</th>
+                      <th>Age</th>
+                      <th>Location</th>
+                      <th>Action</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>John Doe</td>
+                      <td>30</td>
+                      <td>New York</td>
+                      <td>
+                        <button>View</button>
+                    </td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>Jane Smith</td>
+                      <td>25</td>
+                      <td>Los Angeles</td>
+                      <td><button>View</button>
+                    </td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td>Alice Johnson</td>
+                      <td>40</td>
+                      <td>Chicago</td>
+                      <td><button>View</button>
+                    </td>
+                    </tr>
+                  </tbody>
+            </table>
+        </div>
+
+
+    </div>
+
+</body>
+</html>

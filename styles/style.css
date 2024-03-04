@@ -1,0 +1,131 @@
+@font-face {
+    font-family: playfair;
+    src: url(../fonts/PlayfairDisplay-Regular.ttf)
+}
+
+@font-face {
+    font-family: sofia;
+    src: url(../fonts/sofiapro-light.otf);
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px;
+}
+
+.landing-page {
+    font-family: sofia;
+  
+    
+}
+
+.landing-page .container {
+    height: 100vh;
+}
+
+.nexus-pulse {
+    font-family: playfair;
+    letter-spacing: -4px;
+    font-size: 3em;
+    color: #E1EEED;
+}
+
+header img {
+    width: 230px;
+}
+
+.landing-page button {
+    border-radius: 10px;
+    font-size: 1.15em;
+    width: 130px;
+    height: 50px;
+    font-family: sofia;
+    font-weight: lighter;
+    border-style: none;
+    margin: 10px;
+}
+
+.login-button {
+    background-color: #6ABCB8;
+    color: #333333;
+}
+
+.register-button {
+    background-color: #00625C;
+    color: #ffffff;
+}
+
+.login-button:hover {
+    background-color: #58A5A0; 
+    cursor: pointer;
+}
+
+.connect-button:hover {
+    background-color: #00524D; 
+    cursor: pointer;
+}
+
+.content {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #E1EEED;
+    align-items: center;
+}
+
+.hero {
+    font-family: playfair;
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-size: 5em;
+}
+
+.sub-hero {
+    margin-bottom: 20px;
+    font-size: 1.25em;
+    padding: 16px;
+    opacity: 80%;
+}
+
+.connect-button {
+    width: 200px;
+    background-color: #00625C;
+    color: #FFFFFF;
+}
+
+.bottom-content {
+    height: fit-content;
+    background-color: #ffffff;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-color: #282d2e83;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.background {
+    background: url(../images/bg2.png);
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+    background-position: center;
+}
