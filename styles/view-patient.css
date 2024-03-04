@@ -277,3 +277,16 @@ p {
 .add-button img {
     width: 30px;
 }
+
+#edit-button{
+    cursor: pointer;
+}
+
+.text-content[contenteditable="true"] {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}
+.text-content[contenteditable="false"] {
+    border: none;
+}

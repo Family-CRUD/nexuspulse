@@ -84,109 +84,116 @@
     margin-bottom: 40px;
 }
 
+
+
+.container {
+    width: 83%;
+    display: flex;
+    flex-direction: column;
+    color: #333333;
+    background-color: #F6F6F6;
+}
+
+
+h2 {
+    font-size: 2.5em;
+}
+
+.header button {
+    font-size: 1.5em;
+    font-weight: lighter;
+    color: #F8F8F8;
+    font-family: sofia;
+    background-color: #00625C;
+    border-radius: 15px;
+    border-style: none;
+    padding: 15px 50px;
+}
+
+.content img {
+    width: 30px;
+}
+
+.header {
+    padding: 16px;
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content {
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.in,
+.num {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
 .text {
     font-size: 1.25em;
 }
 
-.container {
-    background-color: #F6F6F6;
-    width: 83%;
-    padding: 2%;
+.num {
+    font-weight: lighter;
+    font-size: 1.15em;
+}
+
+.num img {
+    width: 15px;
+}
+
+.card > p {
+    font-size: 4em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.top-content {
+    width: 90%;
     display: flex;
-    color: #333333;
-    flex-direction: row;
-    justify-content: center;
-    overflow: hidden;
-    border-radius: 32px;
+    gap: 50px;
 }
 
-.cards-container{
-    padding: 2%;
-    width: 65%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.card{
-    width: 40%;
-    height: 30%;
-    border-radius: 16px;
-    padding: 4%;
-    background-color: #afcfcd;
-    font-size: 32px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-size:contain;    
-    background-repeat: no-repeat;   
-    background-position: center;
-    background-size: 100% 100%;
-
-}
-
-.card h2{
-    margin: 0 0 16px 0;
-}
-
-.c1, .c3{
-    margin-right: 4%;
-}
-
-.long-card{
-    width: 84%;
-    height: 25%;
-    border-radius: 16px;
-    background-color: #afcfcd;
-}
-
-.notif-card-container{
-    width: 35%;
-    padding: 3%;
-}
-
-.notif-card{    
-    height: 100%;
-    border-radius: 16px;
-    background-color: #afcfcd;
-    padding: 8%;
-    display: flex;
-    flex-direction: column;
-}
-
-.notif-slide{
-    height: 8%;
-    margin-top: 16px;
-    border-radius: 8px;
-    background-color: #00625b54;
-}
-
-.patient header {
-    display: flex;
-    align-items: center;
-    margin: 50px;
-    justify-content: space-around;
-}
-
-.patient h2 {
-    font-size: 2em;
-}
-
-.search {
-    display: flex;
-    align-items: center;
-}
-
-.search input {
+.card {
     width: 400px;
-    height: 50px;
-    border-radius: 10px;
-    background-color: transparent;
-    font-family: sofia;
-    padding-left: 20px;
-    border: 1px solid #B9B9B9;
 }
 
+.card,
+.activity {
+    height: fit-content;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    padding-bottom: 40px;
+}
 
+.activity > .top {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.activity {
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.activity > img {
+    width: inherit;
+    margin-left: 30px;
+}

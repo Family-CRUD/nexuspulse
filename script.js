@@ -95,6 +95,29 @@ document.addEventListener('DOMContentLoaded', function () {
         
     });
 
+    var editButton = document.getElementById('edit-button');
+    if (editButton) {
+        var textContents = document.querySelectorAll('.text-content');
+        var isEditing = false;
+    
+        editButton.addEventListener('click', function() {
+            isEditing = !isEditing;
+    
+            if (isEditing) {
+                editButton.src = '../images/save.png';
+                textContents.forEach(function(element) {
+                    element.setAttribute('contenteditable', 'true');
+                });
+            } else {
+                editButton.src = '../images/edit.png';
+                textContents.forEach(function(element) {
+                    element.setAttribute('contenteditable', 'false');
+                });
+            }
+    });
+    }
+   
+
 });
 
 
