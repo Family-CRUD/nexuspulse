@@ -43,6 +43,13 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
+    const logoutButton = document.querySelector('.logout-button');
+    if (logoutButton) {
+        logoutButton.addEventListener('click', () => {
+            window.location.href = '../html/index.html';
+        });
+    }
+
     // Login page
     const loginButton = document.querySelector('.login-button');
     if (loginButton) {
@@ -66,6 +73,28 @@ document.addEventListener('DOMContentLoaded', function () {
             window.location.href = '../html/add-new-patient.html';
         });
     }
+
+    const sidebarItems = document.querySelectorAll(".items > div, .bottom > div");
+
+    sidebarItems.forEach(item => {
+        item.addEventListener("mouseover", function() {
+            const img = item.querySelector("img");
+            if (img) {
+                const src = img.getAttribute("src");
+                img.setAttribute("src", src.replace(".png", "-green.png"));
+            }
+        });
+
+        item.addEventListener("mouseout", function() {
+            const img = item.querySelector("img");
+            if (img) {
+                const src = img.getAttribute("src");
+                img.setAttribute("src", src.replace("-green.png", ".png"));
+            }
+        });
+        
+    });
+
 });
 
 
