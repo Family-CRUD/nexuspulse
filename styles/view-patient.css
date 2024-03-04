@@ -115,6 +115,9 @@
     align-items: center;
 }
 
+
+
+
 .patient > * {
     width: 50%;
 }
@@ -127,6 +130,20 @@
 
 .patient-data img {
     width: 100px;
+}
+
+.back-icon {
+    position: absolute;
+    left: 20%;
+}
+
+.back-icon img {
+    width: 50px;
+}
+
+.back-icon img:hover {
+    background-color: #b9b9b956;
+    cursor: pointer;
 }
 
 .name {
@@ -247,7 +264,7 @@ p {
 
 .add-button{
     border-radius: 10px;
-    font-size: 1.15em;
+    font-size: 1.25em;
     height: 50px;
     padding: 0 30px;
     font-family: sofia;
@@ -257,5 +274,12 @@ p {
     background-color: #00625C;
     color: #FFFFFF;
     margin-left: 75%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
     margin-top: 50px;
+}
+
+.add-button img {
+    width: 30px;
 }

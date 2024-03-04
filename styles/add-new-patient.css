@@ -1,0 +1,217 @@
+@font-face {
+    font-family: playfair;
+    src: url(../fonts/PlayfairDisplay-Regular.ttf)
+}
+
+@font-face {
+    font-family: sofia;
+    src: url(../fonts/sofiapro-light.otf);
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.admin-page {
+    display: flex;
+    color: #E1EEED;
+}
+
+.sidebar {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #00625C;
+    width: 17%;
+}
+
+.admin-page {
+    display: flex;
+    font-family: sofia;
+}
+
+.admin-page img {
+    width: 200px;
+}
+
+.sidebar .logo {
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    font-family: playfair;
+    border-bottom: 1px solid #E1EEED;
+    letter-spacing: -4px;
+    color: #E1EEED;
+    margin-bottom: 50px;
+}
+
+.sidebar .logo p {
+    margin-left: 30px;
+}
+
+.items > * {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 5px 50px;
+}
+
+.bottom > * {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 5px 50px;
+}
+
+.items img,
+.bottom img {
+    width: 25px;
+}
+
+.items {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.records {
+    margin-top: 10px;
+}
+
+.text {
+    font-size: 1.25em;
+}
+
+.container {
+    background-color: #F6F6F6;
+    display: flex;
+    width: 83%;
+    color: #333333;
+    flex-direction: column;
+}
+
+input {
+    font-family: sofia;
+    background-color: #E4E4E4;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 10px;
+    height: 50px;
+    border-style: none;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.header h2 {
+    font-size: 2.5em;
+    color: #333333;
+}
+
+.personal-information,
+.contact-information p {
+    font-size: 1.5em;
+    color: #00625C;
+    border-bottom: 1px solid #B9B9B9;
+    padding-bottom: 10px;
+}
+
+
+.mid {
+    padding-top: 50px;
+    font-size: 1em;
+    width: 70%;
+    margin: 0 auto;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons {
+    display: flex;
+    width: 70%;
+    gap: 20px;
+    margin: auto;
+    place-content: end;
+}
+
+button {
+    font-family: sofia;
+    width: 130px;
+    font-size: 1.25em;
+    height: 50px;
+    border-style: none;
+    border-radius: 15px;
+}
+
+.cancel-button {
+    background-color: #ABCCCA;
+    color: #333333;
+}
+
+.save-button {
+    background-color: #00625C;
+    color: #FFFFFF;
+}
+
+.full-name,
+.other {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.contact-information {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.full-name > div,
+.other > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.full-name > div {
+    width: 50%;
+}
+
+.other > div {
+    width: 33.33%;
+}
+
+.contacts {
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.contacts > div {
+    width: 50%;
+}
+
+button:hover {
+    background-color: #00625ba4;
+    cursor: pointer;
+    color: black;
+}

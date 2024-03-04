@@ -111,7 +111,8 @@
 }
 
 .patient h2 {
-    font-size: 2em;
+    font-size: 2.5em;
+    color: #333333;
 }
 
 .search {
@@ -147,7 +148,7 @@ header button {
 }
 
 .add-patient-button {
-    background-color: #6ABCB8;
+    background-color: #00625C;
     color: #F6F6F6;
 }
 
@@ -163,6 +164,7 @@ td button {
 table {
     border-collapse: collapse;
     width: 80%;
+    font-size: 1.15em;
     margin: auto;
 }
 
@@ -183,7 +185,18 @@ tr:nth-child(even) {
 
 
 tr:hover {
-    background-color: #ddd;
+    background-color: #dddddd77;
+}
+
+button:hover {
+    background-color: #00625C;
+    color: #ffffff;
+}
+
+.search-button:hover,
+.add-patient-button:hover {
+    background-color: #00524D; 
+    cursor: pointer;
 }
 
 tr td:last-child {

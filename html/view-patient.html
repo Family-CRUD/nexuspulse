@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NexusPulse - Admin</title>
+    <title>NexusPulse - Viewing Patient</title>
     <link rel="stylesheet" href="../styles/view-patient.css">
-    <script src="../admin.js" defer></script>
+    <script src="../script.js" defer></script>
 </head>
 <body class="admin-page">
     <div class="sidebar">
@@ -40,7 +40,10 @@
     <div class="container">
         <div class="patient">
             <div class="patient-data">
-                <img src="../images/andrea.png" alt="Andrea Profile Picture">
+                <div class="back-icon">
+                    <img src="../images/back.png" alt="">
+                </div>
+                <img src="../images/andrea.png" alt="profile picture">
                 <div class="name-id">
                     <p class="name">Andrea Joy Dela Torre</p>
                     <p class="id">Patient ID: 0001</p>
@@ -80,7 +83,7 @@
             <div class="record-container">
                 <div class="header-container">
                     <h2 class="header-title">Vital Signs</h2>
-                    <img src="../images/edit.png" alt="">
+                    <img src="../images/edit.png" alt="" class="edit-btn">
                 </div>
                 <div class="text-container">
                     <p class="label">Blood Pressure</p>
@@ -131,7 +134,7 @@
             </div>
         </div>
 
-        <button class="add-button"> Add</button>
+        <button class="add-button"> <img src="../images/plus.png" alt="Plus Button"> Add</button>
 
     </div>
 
