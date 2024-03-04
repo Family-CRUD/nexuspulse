@@ -53,22 +53,14 @@ header img {
     margin: 10px;
 }
 
+.register-button,
 .login-button {
-    background-color: #6ABCB8;
-    color: #333333;
-}
-
-.register-button {
     background-color: #00625C;
     color: #ffffff;
 }
 
+.connect-button:hover,
 .login-button:hover {
-    background-color: #58A5A0; 
-    cursor: pointer;
-}
-
-.connect-button:hover {
     background-color: #00524D; 
     cursor: pointer;
 }

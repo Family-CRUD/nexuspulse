@@ -276,3 +276,9 @@ button {
     border-style: none;
     margin: 10px;
 }
+
+.items > *:hover {
+    background-color: #dddddd88;
+    border-radius: 10px;
+    cursor: pointer;
+}

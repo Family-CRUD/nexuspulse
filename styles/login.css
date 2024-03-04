@@ -118,3 +118,7 @@ label {
     color: #333333;
     text-decoration: none;
 }
+
+.login-button {
+    cursor: pointer;
+}
