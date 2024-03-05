@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const logoutButton = document.querySelector('.logout-button');
     if (logoutButton) {
         logoutButton.addEventListener('click', () => {
-            window.location.href = '../html/index.html';
+            window.location.href = '../index.html';
         });
     }
 
