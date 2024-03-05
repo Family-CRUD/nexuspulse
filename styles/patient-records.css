@@ -102,18 +102,15 @@
 .patient {
     display: flex;
     flex-direction: column;
-    width: inherit;
+    margin-top: 100px;
+    padding: 0 100px;
 }
 
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 16px 0 16px 16px;
-    margin-top: 70px;
-    margin-left: 75px;
     margin-bottom: 50px;
-
 }
 
 .patient h2 {
@@ -141,7 +138,7 @@
 
 .header button {
     border-radius: 10px;
-    font-size: 1.15em;
+    font-size: 1.25em;
     width: 150px;
     height: 50px;
     font-family: sofia;
@@ -159,10 +156,10 @@
     color: #333333;
 }
 
-
 .buttons {
     display: flex;
     gap: 10px;
+    align-items: right;
 }
 
 td button {
@@ -171,10 +168,8 @@ td button {
 
 table {
     border-collapse: collapse;
-    width: 93%;
-    font-size: 1.15em;
-    place-content: start;  
-    margin-left: auto; 
+    font-size: 1.25em;
+    border-radius: 20px;
 }
 
 th, td {
