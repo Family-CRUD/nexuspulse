@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const loginForm = document.querySelector('.login-form');
     if (loginForm) {
         loginForm.addEventListener('click', () => {
-            window.location.href = './html/login.html';
+            window.location.href = '../html/login.html';
         });
     }
 
@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const logoutButton = document.querySelector('.logout-button');
     if (logoutButton) {
         logoutButton.addEventListener('click', () => {
-            window.location.href = '../index.html';
+            window.location.href = '../html/index.html';
         });
     }
 
@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const connectButton = document.querySelector('.connect-button');
     if (connectButton) {
         connectButton.addEventListener('click', () => {
-            window.location.href = './html/register.html';
+            window.location.href = '../html/register.html';
         });
     }
 
