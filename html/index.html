@@ -7,54 +7,99 @@
     <link rel="stylesheet" href="../styles/style.css">
     <script src="../script.js" defer></script>
 </head>
-<body class="landing-page">
+<body class="landing-page" id="home">
     <div class="background">
         <div class="container">
             <header class="header">
                 <img src="../images/logo4.png" alt="NexusPulse Logo">
+                <div class="nav-bar">
+                    <a href="#about" class="about">About</a>
+                    <a href="#features" class="features">Features</a>
+                    <a href="#team" class="team">Team</a>
+                    <a href="#contact-us" class="team">Contact</a>
+                </div>
                 <button class="login-form">Login</button>
             </header>
         
             <div class="content">
-                <p class="hero">A Healthcare Information <br> Management System</p>
+                <p class="hero">A <span class="healthcare">Healthcare</span> Information <br> Management System</p>
                 <p class="sub-hero">Securing Your Data: Ensuring the Safety, Integrity, and Accessibility of Your Records</p>
                 <button class="connect-button">Connect</button>
             </div>
         </div>
     </div>
 
-    <div class="about-us-container">
-        <div class="about-us-content auc">
-            <h1>ABOUT US</h1>
-            <p><a>NexusPulse</a> revolutionizes healthcare information management by leveraging the power of blockchain technology. With unparalleled security and transparency, we ensure the confidentiality and integrity of your medical records, empowering both patients and healthcare providers.</p>
+    <div class="about-us-container" id="about">
+        <div class="left">
+            <div class="left-img">
+                <img src="../images/image1.png" alt="">
+                <img src="../images/image2.png" alt="">
+            </div>
+            <div class="right-img">
+                <img src="../images/image3.png" alt="">
+            </div>
         </div>
-        <div class="about-us-image auc">
-            <img src="https://placehold.co/600x400" alt="test">
+        <div class="right">
+            <div class="about-us-text">
+                <p>ABOUT US</p>
+                <img class="dash" src="../images/dash.png" alt="">
+            </div>
+            <div class="about-header"><em>Innovating Health, </em><br> One Block at a Time</div>
+            <p>NexusPulse revolutionizes healthcare information management by leveraging
+                the power of blockchain technology. With unparalleled security and transparency, we ensure the confidentiality and integrity of your medical records, empowering both patients and healthcare providers.</p>
         </div>
     </div>
 
-    <div class="key-features-container">
-        <h1>Key Features</h1>
-        <p>Innovating Health, One Block at a Time</p>
+    <div class="key-features-container" id="features">
+        <div class="header">
+            <h2>KEY FEATURES</h2>
+            <img src="../images/dash.png" alt="">
+        </div>
         <div class="key-features-collection">
             <div class="key-features-card">
-                <h2>Secure and Immutable Records</h2>
+                <h3>Secure and Immutable Records</h3>
                 <p>Your medical data is encrypted and stored on a tamper-proof blockchain, guaranteeing its integrity and confidentiality.</p>
             </div>
             <div class="key-features-card">
-                <h2>Patient-Centric Approach</h2>
+                <h3>Patient-Centric Approach</h3>
                 <p>Access and control your medical records securely from anywhere, putting you in charge of your healthcare journey.
                 </p>
             </div>
             <div class="key-features-card">
-                <h2>Interoperability</h2>
+                <h3 class="interoperability">Interoperability</h3>
                 <p>Seamless integration with existing healthcare systems ensures smooth data exchange between providers, enhancing collaboration and patient care.
                 </p>
             </div>
         </div>
     </div>
 
-    <div class="contact-form-container">
+    <div class="team-container" id="team">
+        <div class="header">
+            <h2>Meet the <span class="developer">Developers</span></h2>
+            <p>The dedicated minds behind NexusPulse.</p>
+        </div>
+        <div class="card-container">
+            <div class="card-item">
+                <a href="https://www.facebook.com/mustbeneru" target="_blank"><img src="../images/neil-pfp.png" alt=""></a>
+                <p class="name">Neil Carlo D. Zapanta</p>
+            </div>
+            <div class="card-item">
+                <a href="https://www.facebook.com/bobmyron.36"><img src="../images/-pfp.png" alt=""></a>
+                <p class="name">Bob Myron D. Reyes</p>
+            </div>
+            <div class="card-item">
+                <a href="https://www.facebook.com/itsmarksheesh"><img src="../images/mark-pfp.png" alt=""></a>
+                <p class="name">Mark David Basinillo</p>
+            </div>
+            <div class="card-item">
+                <a href="https://www.facebook.com/andreajoydt"><img src="../images/andrea-pfp.png" alt=""></a>
+                <p class="name">Andrea Joy Dela Torre</p>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="contact-form-container" id="contact-us">
         <div class="form-label cfc">
             <h1>Contact Us!</h1>
             <p>Have questions, concerns, or need assistance? We're here to help! Whether you're a healthcare provider looking to integrate NexusPulse into your practice or a patient seeking support, our team is dedicated to providing you with prompt and helpful assistance.
@@ -82,10 +127,11 @@
                 <input type="submit" value="Submit">
               </form>
         </div>
+        
     </div>
 
     <footer class="footer">
-        <p>Currently under development by © UpRise Nexus <script>document.write( new Date().getFullYear() );</script></p>
+        <p>Currently under development by © UPRise Nexus <script>document.write( new Date().getFullYear() );</script></p>
     </footer> 
 
 </body>

@@ -121,3 +121,20 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
+document.addEventListener('DOMContentLoaded', function() {
+    var links = document.querySelectorAll('.nav-bar a');
+
+    links.forEach(function(link) {
+        link.addEventListener('click', function(e) {
+            e.preventDefault(); // Prevent the default behavior of the link
+
+            var targetId = this.getAttribute('href'); // Get the target section ID from the href attribute
+            var targetSection = document.querySelector(targetId); // Find the corresponding section
+
+            if (targetSection) {
+                targetSection.scrollIntoView({ behavior: 'smooth' }); // Scroll to the section smoothly
+                targetSection.style.animation = 'scroll 1s'; // Apply animation to the section
+            }
+        });
+    });
+});
