@@ -253,6 +253,19 @@ em {
     background-color: #00625C;
 }
 
+.icon-container {
+    width: 120px;
+    height: 100px;
+    background-color: #f6f6f6;
+    position: absolute;
+    margin-bottom: 350px;
+    left: 0;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .key-features-container h2{
     font-size: 2em;
     letter-spacing: 5px;
@@ -289,7 +302,7 @@ em {
     justify-content: center;
     align-items: center;
     gap: 50px;
-    margin-top: 50px;
+    margin-top: 80px;
 }
 
 .key-features-card {
@@ -297,6 +310,7 @@ em {
     height: 100%;
     border-radius: 16px;
     display: flex;
+    position: relative;
     flex-direction: column;
     text-align: center;
     justify-content: center;
