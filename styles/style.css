@@ -292,8 +292,8 @@ em {
     margin-top: 50px;
 }
 
-.key-features-card{
-    width: 25%;
+.key-features-card {
+    width: 30%;
     height: 100%;
     border-radius: 16px;
     display: flex;
@@ -309,6 +309,10 @@ em {
 .key-features-card h3{
     font-size: 2.5em;
     height: 30%;
+}
+
+.key-features-card p {
+    padding: 0 30px;
 }
 
 .interoperability {
@@ -362,10 +366,36 @@ em {
     font-family: playfair-italic;
 }
 
-.team-container img {
-    width: 320px;
-    height: 370px;
+.img-container {
+    background-color: white;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
     border-radius: 20px;
+    justify-content: flex-end;
+    padding-bottom: 40px;
+}
+
+.neil {
+    width: 100%;
+    height: auto;
+}
+
+.bob {
+    width: 90%;
+    margin-left: 15px;
+    height: auto;
+}
+
+.andrea {
+    height: 250px;
+    width: 100%;
+}
+
+.mark {
+    height: 80%;
+    width: 110%;
 }
 
 .contact-form-container{
