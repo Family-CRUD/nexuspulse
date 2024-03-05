@@ -377,6 +377,10 @@ em {
     padding-bottom: 40px;
 }
 
+.img-container img {
+    border-radius: 50%;
+}
+
 .neil {
     width: 100%;
     height: auto;
@@ -389,15 +393,12 @@ em {
 }
 
 .andrea {
-    height: 250px;
+    height: 280px;
     width: 100%;
 }
 
-
-
 .mark {
-
-    height: 80%;
+    height: 100%;
     width: 110%;
 }
 
