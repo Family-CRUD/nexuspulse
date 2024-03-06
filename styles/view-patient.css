@@ -132,7 +132,7 @@
 }
 
 .back-icon img {
-    width: 50px;
+    width: 30px;
 }
 
 .back-icon img:hover {
@@ -162,6 +162,7 @@ p {
     align-items: center;
     gap: 10px;
     font-size: 2em;
+    margin-top: 30px;
     color: #00625C;
 }
 
@@ -275,7 +276,7 @@ p {
     display: flex;
     align-items: center;
     gap: 10px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .add-button img {
