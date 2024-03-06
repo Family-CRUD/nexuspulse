@@ -69,7 +69,7 @@ Check out the video demo of NexusPulse [here](#)!
 ## Contact
 If you have any questions or feedback regarding our project, feel free to reach out to us:
 
-- Neil Carlo Zapanta - [GitHub](https://github.com/mustbeneru) | Email: neilcarlo.zapanta.d@gmail.com
+- Neil Carlo Zapanta - neilcarlo.zapanta.d@gmail.com
 - Andrea Dela Torre - andreajoyndt@gmail.com
 - Mark David Basinillo - basinillo07@gmail.com
 - Bob Myron Reyes - bmyron.reyes@gmail.com
