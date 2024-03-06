@@ -63,7 +63,7 @@ Our future plans for the NexusPulse project include:
 - Implementing backend design.
 
 ## Demo
-Check out the live demo of NexusPulse on GitHub Pages: [NexusPulse Live Demo](https://uprise-nexus.github.io/nexuspulse/)
+Check out the live demo of NexusPulse on GitHub Pages: [NexusPulse Live Demo](https://uprise-nexus.github.io/nexuspulse/src/index.html)
 
 ## Contact
 If you have any questions or feedback regarding our project, feel free to reach out to us:
