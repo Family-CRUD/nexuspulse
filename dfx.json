@@ -2,9 +2,9 @@
     "canisters": {
         "nexuspulse": {
             "frontend": {
-                "entrypoint": "/index.html"
+                "entrypoint": "src/index.html"
             },
-            "source": ["nexuspulse"],
+            "source": ["src"],
             "type": "assets"
         }
     },
