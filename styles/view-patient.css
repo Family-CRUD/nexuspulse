@@ -208,6 +208,10 @@ p {
     flex-wrap: wrap;
 }
 
+.text-content[contenteditable="false"] {
+    padding: 1px 0;
+}
+
 .medical-record > * {
     width: 50%;
 }
@@ -285,6 +289,7 @@ p {
 .text-content[contenteditable="true"] {
     border: 1px solid #ccc;
     border-radius: 4px;
+    padding-left: 5px;
 
 }
 .text-content[contenteditable="false"] {
