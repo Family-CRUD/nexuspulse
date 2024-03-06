@@ -1,15 +1,15 @@
-# Uprise Nexus - IRCITE Hackathon 2024
+# UPRise Nexus - IRCITE Hackathon 2024
 
-Welcome to the Uprise Nexus team's repository for the IRCITE Hackathon 2024! This repository contains the project work of our team, consisting of 3rd year students from Bulacan State University pursuing a Bachelor of Science in Information Technology (BSIT) degree. 
+Welcome to team UPRise Nexus repository for the IRCITE Hackathon 2024! This repository contains the project work of our team, consisting of 3rd year students from Bulacan State University pursuing a Bachelor of Science in Information Technology (BSIT) degree. 
 
 ## Project Overview
-Our team, Uprise Nexus, is participating in the IRCITE Hackathon 2024 with a focus on revolutionizing healthcare information management through blockchain technology. Our goal is to develop a secure and decentralized platform that empowers patients to take control of their medical data while ensuring the integrity and privacy of their records.
+Our team, UPRise Nexus, is participating in the IRCITE Hackathon 2024 with a focus on revolutionizing healthcare information management through blockchain technology. Our goal is to develop a secure and decentralized platform that empowers patients to take control of their medical data while ensuring the integrity and privacy of their records.
 
 ## Project Description
 The NexusPulse project aims to revolutionize healthcare information management through the integration of blockchain technology. Our platform provides a secure and decentralized solution for storing, managing, and sharing medical data, empowering patients to take control of their health records while ensuring the integrity and privacy of their information.
 
 ### Key Features:
-- **Secure Data Storage:** Utilizing blockchain technology, we ensure that patient data is stored in a tamper-proof and transparent manner, protecting it from unauthorized access or modification.
+- **Secure Data Storage:** Utilizing blockchain technology, we ensure that the patient data is stored in a tamper-proof and transparent manner, protecting it from unauthorized access or modification.
   
 - **Patient-Centric Approach:** Currently, our system prioritizes administrative functions, providing robust tools for managing patient data securely and efficiently. While the user interface for patients may not be fully developed, administrators have full control over data management and access permissions.
   
@@ -49,7 +49,6 @@ The NexusPulse project aims to revolutionize healthcare information management t
   - `script.js`: Main JavaScript file for client-side scripting.
 
 ## Technology Stack
-- **Blockchain Platform:** [_to be updated_]
 - **Programming Languages:** HTML, CSS, JavaScript
 - **Development Tools:** Git, Visual Studio Code
 
@@ -61,6 +60,7 @@ Our future plans for the NexusPulse project include:
 - Improving overall user experience (UX) and user interface (UI) design.
 - Utilizing blockchain technology.
 - Developing additional feasible features.
+- Implementing backend design.
 
 ## Demo
 Check out the live demo of NexusPulse on GitHub Pages: [NexusPulse Live Demo](https://uprise-nexus.github.io/nexuspulse/)
