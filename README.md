@@ -62,8 +62,15 @@ Our future plans for the NexusPulse project include:
 - Developing additional feasible features.
 - Implementing backend design.
 
-## Demo
+## Live Demo
 Check out the live demo of NexusPulse on GitHub Pages: [NexusPulse Live Demo](https://uprise-nexus.github.io/nexuspulse/src/index.html)
+
+## Canister Information
+- **Canister Link:** [NexusPulse Canister](https://llaug-piaaa-aaaap-ab5ia-cai.icp0.io/)
+- **Canister ID:** llaug-piaaa-aaaap-ab5ia-cai
+
+## Video Demo
+Check out the video demo of NexusPulse [here](https://drive.google.com/file/d/1fYHRG1kFAh3pnb9u39K3H-Q2vawVkl3m/view)!
 
 ## Contact
 If you have any questions or feedback regarding our project, feel free to reach out to us:
